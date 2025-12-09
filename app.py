@@ -1,6 +1,5 @@
-# app.py
 import streamlit as st
-from utils.data_loader import load_all_data
+from utils.data_loader import load_all_data  # ← これで OK
 
 st.set_page_config(
     page_title="都市救急システミックリスク・ダッシュボード",
@@ -10,7 +9,7 @@ st.set_page_config(
 st.title("🚑 都市救急 システミックリスク・ダッシュボード")
 st.markdown("### QUBO × 救急医療 × 相関ネットワークによる次世代アナリティクス")
 
-# app.py
+# ここも名前を mesh に
 df_mesh, df_zones, df_systemic, df_comm, df_comm_mix = load_all_data()
 
 st.success("データ読込完了！")
