@@ -1,5 +1,5 @@
 import streamlit as st
-from utils.qubo_analysis import load_hospital_scores
+from utils.qubo_analysis import get_hospital_scores
 
 st.title("🏥 病院別 Systemic リスクスコア")
 
