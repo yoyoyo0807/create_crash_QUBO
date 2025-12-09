@@ -24,3 +24,4 @@ markdown>=3.4.0
 
 # 若干余裕を持ったインフラ系
 requests>=2.31.0
+seaborn   ←これを追加！
