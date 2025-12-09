@@ -10,8 +10,8 @@ st.set_page_config(
 st.title("🚑 都市救急 システミックリスク・ダッシュボード")
 st.markdown("### QUBO × 救急医療 × 相関ネットワークによる次世代アナリティクス")
 
-# Load data (cached)
-df_cases, df_zones, df_systemic, df_comm, df_comm_mix = load_all_data()
+# app.py
+df_mesh, df_zones, df_systemic, df_comm, df_comm_mix = load_all_data()
 
 st.success("データ読込完了！")
 
